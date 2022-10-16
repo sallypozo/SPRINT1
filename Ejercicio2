@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------------------------
+--
+-- EJERCICIO 2
+--
+------------------------------------------------------------------------------------------------
+SELECT * 
+FROM tb_person
+WHERE person_dod> '1980-04-28'; -- AND length IS NOT NULL;
+
+SELECT * FROM tb_person
+WHERE person_dob> '1899-08-13' AND person_dod < '2015-02-28'
+ORDER BY person_dob ASC;
